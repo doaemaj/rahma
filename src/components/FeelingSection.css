@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Ga+Maamli&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Playwrite+NL+Guides&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Playwrite+NL+Guides&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Playwrite+NL+Guides&display=swap");
+button {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700 !important;
+  font-style: normal;
+}
