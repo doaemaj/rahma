@@ -17,7 +17,7 @@ const CategoryDetail = () => {
   // If no data is found, show an error message
   if (!dhikrData) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-[#F1F0E7]">
+      <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-beige">
         <h1 className="text-3xl font-bold text-black mb-4">Category not found!</h1>
         <p className="text-lg text-gray-600">
           Please go back and select a valid category.
@@ -125,7 +125,6 @@ const [counters, setCounters] = useState(
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

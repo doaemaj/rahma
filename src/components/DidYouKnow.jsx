@@ -69,7 +69,7 @@ const DidYouKnow = () => {
 
   return (
     <div className="container mx-auto my-8 px-32">
-      <div className="bg-blue-100 flex items-center justify-center min-h-[30vh] py-4 px-4 border-b border-blue-200 relative rounded-lg shadow-md ">
+      <div className="bg-[#f6f4ed] flex items-center justify-center min-h-[30vh] py-4 px-4 border-b border-blue-200 relative rounded-lg shadow-md ">
         <div className="flex items-center max-w-4xl w-full p-4">
           
           <div className="flex-1">

@@ -63,108 +63,108 @@
   }
   */
 
-  .slider {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    height: 400px;
-    background-color: rgba(160, 199, 240, 0.5);
-    margin-top: 105px;
-  }
-  
-  .slider-container {
-    position: relative;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .slides {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-  }
-  
-  .slider-image {
-    position: absolute;
-    transition: all 0.5s ease-in-out;
-    opacity: 0.5;
-    width:150px;
-    height: auto;
-    filter: blur(5px);
-    transform: scale(0.8);
-  }
-  
-  .current-slide {
-    opacity: 1;
-    width: 300px;
-    height: auto;
-    filter: blur(0);
-    transform: translateX(0) scale(1);
-    z-index: 3;
-  }
-  
-  .next-slide {
-    opacity: 0.8;
-    width: 200px;
-    height: auto;
-    filter: blur(3px);
-    transform: translateX(380px) scale(0.9); /* Increased translation */
-    z-index: 2;
-  }
-  
-  .prev-slide {
-    opacity: 0.8;
-    width: 200px;
-    height: auto;
-    filter: blur(3px);
-    transform: translateX(-380px) scale(0.9); /* Increased translation */
-    z-index: 2;
-  }
-  
-  .hidden-slide {
-    opacity: 0;
-    width: 0;
-    height: 0;
-    transform: scale(0);
-    z-index: 0;
-  }
-  
-  .arrow {
-    position: absolute;
-    top: 50%;
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  background-color: #c7d4dc;
+  margin-top: 105px;
+}
 
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 2rem;
-    color: #333;
-    cursor: pointer;
-    z-index: 5;
-  }
-  
-  .arrow.left {
-    left: 10px;
-  }
-  
-  .arrow.right {
-    right: 10px;
-  }
-  
-  .arrow:hover {
-    color: #000;
-  }
-  /* Responsive adjustments for small screens */
+.slider-container {
+  position: relative;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.slider-image {
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+  width: 150px;
+  height: auto;
+  filter: blur(5px);
+  transform: scale(0.8);
+}
+
+.current-slide {
+  opacity: 1;
+  width: 300px;
+  height: auto;
+  filter: blur(0);
+  transform: translateX(0) scale(1);
+  z-index: 3;
+}
+
+.next-slide {
+  opacity: 0.8;
+  width: 200px;
+  height: auto;
+  filter: blur(3px);
+  transform: translateX(380px) scale(0.9); /* Increased translation */
+  z-index: 2;
+}
+
+.prev-slide {
+  opacity: 0.8;
+  width: 200px;
+  height: auto;
+  filter: blur(3px);
+  transform: translateX(-380px) scale(0.9); /* Increased translation */
+  z-index: 2;
+}
+
+.hidden-slide {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transform: scale(0);
+  z-index: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.arrow:hover {
+  color: #000;
+}
+/* Responsive adjustments for small screens */
 @media (max-width: 768px) {
   .arrow.left {
     left: -20px;
-     /* Closer to the edge for small screens */
+    /* Closer to the edge for small screens */
   }
 
   .arrow.right {
@@ -174,8 +174,8 @@
 
 @media (max-width: 480px) {
   .arrow.left {
-    left: 0px; 
-    margin-right: 10px;/* Even closer for very small screens */
+    left: 0px;
+    margin-right: 10px; /* Even closer for very small screens */
   }
 
   .arrow.right {
@@ -187,8 +187,8 @@
   .slider-image {
     width: 30%; /* Increase image size */
   }
-  .slider{
-    margin-top:133px;
+  .slider {
+    margin-top: 133px;
   }
 }
 
@@ -196,7 +196,7 @@
   .slider-image {
     width: 30%; /* Further increase size for extra-large screens */
   }
-  .slider{
-    margin-top:133px;
+  .slider {
+    margin-top: 133px;
   }
 }

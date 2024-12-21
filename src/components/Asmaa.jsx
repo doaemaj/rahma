@@ -94,7 +94,7 @@ const Asmaa = () => {
                     />
                   </div>
                   {/* Face arrière (transliteration et meaning) */}
-                  <div className="absolute w-full h-full bg-[#BDD7F2] bg-opacity-72 text-center flex flex-col items-center justify-center rounded-lg backface-hidden rotate-y-180">
+                  <div className="absolute w-full h-full bg-[#c7d4dc] bg-opacity-72 text-center flex flex-col items-center justify-center rounded-lg backface-hidden rotate-y-180">
                     <h3 className="text-xl font-bold mb-2">{name.transliteration}</h3>
                     <p className="text-gray-700">{name.en.desc}</p>
                   </div>

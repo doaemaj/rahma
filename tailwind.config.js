@@ -28,7 +28,7 @@ export default {
         'custom': '28%', // Define your custom width
       },
       colors :{
-        'beige' : '#F1F0E7'
+        'beige' : '#f8f1e9'
         
       },
       perspective: {

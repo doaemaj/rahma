@@ -5,7 +5,7 @@ import categories from "../data/categories.json";
 const Categories = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-[70vh] flex items-center justify-center bg-[#F1F0E7] py-5 px-5 border-t border-b border-black">
+    <div className="min-h-[70vh] flex items-center justify-center bg-[#f6f4ed] py-5 px-5 border-t border-b">
       <div
         className="
           grid grid-cols-2       
@@ -17,7 +17,7 @@ const Categories = () => {
         {categories.map((category) => (
           <div
             key={category.id}
-            className="flex items-center p-4 w-full h-[100px] bg-[#759BDB99] rounded-lg cursor-pointer shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            className="flex items-center p-4 w-full h-[100px] bg-[#c7d4dc] rounded-lg cursor-pointer shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             onClick={() => navigate(`/category/${category.name}`)} // Navigate to detailed interface
           >
             
