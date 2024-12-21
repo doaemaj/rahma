@@ -111,7 +111,7 @@ const Home = () => {
         <div className="flex flex-row items-center justify-between p-4 md:p-8 border-gray-300">
           <div className="w-full md:w-1/2 flex justify-center items-center">
             <img
-              src={('/home1.png')}
+              src={('/home3.png')}
               alt="Dua & Dhikr Illustration"
               className="rounded-md shadow-lg max-w-s md:max-w-sm"
             />
@@ -159,7 +159,7 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center items-center">
             <img
-              src={('/home1.png')}
+              src={('/home2.png')}
               alt="Dua & Dhikr Illustration"
               className="rounded-md shadow-lg max-w-s md:max-w-sm"
             />

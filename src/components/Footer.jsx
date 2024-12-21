@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-100 text-gray-800 px-24 py-6">
+    <footer className=" text-gray-800 px-24 py-6 pt-5" style={{ backgroundColor: 'rgb(203,213,222)' }}>
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* About Section */}
         <div className="mb-4 md:mb-0 md:max-w-[800px]">
