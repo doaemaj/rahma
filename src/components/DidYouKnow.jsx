@@ -68,13 +68,13 @@ const DidYouKnow = () => {
   };
 
   return (
-    <div className="container mx-auto my-8 px-32">
+    <div className="container mx-auto my-8 px-6 lg:px-24 ">
       <div className="bg-[#f6f4ed] flex items-center justify-center min-h-[30vh] py-4 px-4 border-b border-blue-200 relative rounded-lg shadow-md ">
         <div className="flex items-center max-w-4xl w-full p-4">
           
           <div className="flex-1">
             <h2 className="text-[1.3rem] font-bold mb-4">Did you know?</h2>
-            <p className="text-gray-700 text-[0.8rem] leading-relaxed lg:text-[1.2rem]">
+            <p className="text-gray-700 text-[0.9rem] leading-relaxed lg:text-[1.1rem]">
               {data[currentIndex].text}
             </p>
           </div>

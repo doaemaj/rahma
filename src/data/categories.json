@@ -1,102 +1,103 @@
 [
-  {
-    "id": 1,
-    "name": "Morning Adhkar",
-    "icon": "/assets/sun.png"
-  },
-  {
-    "id": 2,
-    "name": "After meals",
-    "icon": "/assets/drink.png"
-  },
-  {
-    "id": 3,
-    "name": "Evening Adhkar",
-    "icon": "/assets/evening.png"
-  },
-  {
-    "id": 4,
-    "name": "Thanking Allah",
-    "icon": "/assets/thank.png"
-  },
-  {
-    "id": 5,
-    "name": "Seeking Forgiveness",
-    "icon": "/assets/rep.png"
-  },
-  {
-    "id": 6,
-    "name": "Lavatory and wudu",
-    "icon": "/assets/wudu.png"
-  },
-  {
-    "id": 7,
-    "name": "Travel",
-    "icon": "/assets/travel.png"
-  },
-  {
-    "id": 8,
-    "name": "After Salat",
-    "icon":  "/assets/afterS.png"
-  },
-  {
-    "id": 9,
-    "name": "Hearing the Adhan",
-    "icon":  "/assets/adhan.png"
-  },
-  {
-    "id": 10,
-    "name": "Praising Allah",
-    "icon":  "/assets/heart.png"
-  },
-  {
-    "id": 11,
-    "name": "Asking for knowledge",
-    "icon": "/assets/know.png"
-  },
-  {
-    "id": 12,
-    "name": "Asking for rizq",
-    "icon": "/assets/rizq.png"
-  },
-  {
-    "id": 13,
-    "name": "Before sleeping",
-    "icon": "/assets/sleep.png"
-  },
-  {
-    "id": 14,
-    "name": "This world and Aakhira",
-    "icon": "🙏"
-  },
-  {
-    "id": 15,
-    "name": "Protection",
-    "icon": "/assets/protection.png"
-  },
-  {
-    "id": 16,
-    "name": "For repentance",
-    "icon": "/assets/forg.png"
-  },
-  {
-    "id": 17,
-    "name": "Marriage and children",
-    "icon": "/assets/family.png"
-  },
-  {
-    "id": 18,
-    "name": "After rainfall",
-    "icon": "/assets/8501973.jpg"
-  },
-  {
-    "id": 19,
-    "name": "For parents",
-    "icon": "/assets/parents.png"
-  },
-  {
-    "id": 20,
-    "name": "The funeral prayer",
-    "icon": "/assets/grave.png"
-  }
-]
+    {
+      "id": 1,
+      "name": "Morning Adhkar",
+      "icon": "/assets/sun.png"
+    },
+    {
+      "id": 2,
+      "name": "Food and Drinks",
+      "icon": "/assets/drink.png"
+    },
+    {
+      "id": 3,
+      "name": "Evening Adhkar",
+      "icon": "/assets/evening.png"
+    },
+    {
+      "id": 4,
+      "name": "Thanking Allah",
+      "icon": "/assets/drink.png"
+    },
+    {
+      "id": 5,
+      "name": "Seeking Forgiveness",
+      "icon": "🤲"
+    },
+    {
+      "id": 6,
+      "name": "Lavatory and wudu",
+      "icon": "/assets/wudu.png"
+    },
+    {
+      "id": 7,
+      "name": "Travel",
+      "icon": "/assets/travel.png"
+    },
+    {
+      "id": 8,
+      "name": "After Salat",
+      "icon":  "/assets/afterS.png"
+    },
+    {
+      "id": 9,
+      "name": "Hearing the Adhan",
+      "icon":  "/assets/adhan.png"
+    },
+    {
+      "id": 10,
+      "name": "Praising Allah",
+      "icon":  "/assets/praising.png"
+    },
+    {
+      "id": 11,
+      "name": "Asking for knowledge",
+      "icon": "/assets/know.png"
+    },
+    {
+      "id": 12,
+      "name": "Asking for rizq",
+      "icon": "/assets/rizq.png"
+    },
+    {
+      "id": 13,
+      "name": "Evening Adhkar",
+      "icon": "🌙"
+    },
+    {
+      "id": 14,
+      "name": "Thanking Allah",
+      "icon": "🙏"
+    },
+    {
+      "id": 15,
+      "name": "Seeking Forgiveness",
+      "icon": "🤲"
+    },
+    {
+      "id": 16,
+      "name": "Morning Adhkar",
+      "icon": "☀️"
+    },
+    {
+      "id": 17,
+      "name": "Food and Drinks",
+      "icon": "🍽️"
+    },
+    {
+      "id": 18,
+      "name": "Evening Adhkar",
+      "icon": "🌙"
+    },
+    {
+      "id": 19,
+      "name": "Thanking Allah",
+      "icon": "🙏"
+    },
+    {
+      "id": 20,
+      "name": "Seeking Forgiveness",
+      "icon": "🤲"
+    }
+  ]
+  

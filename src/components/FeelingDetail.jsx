@@ -36,8 +36,8 @@ const FeelingDetail = () => {
           {/* Back Button */}
           <button
             onClick={() => navigate(-1)} // Navigates back to the previous page
-            className=" fixed bg-blue-100 text-black px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition hidden md:block"
-          >
+            className="px-4 py-2 rounded transition bg-white text-black hover:bg-[rgb(203,213,222)] hover:text-white"
+            >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-2"
@@ -59,11 +59,11 @@ const FeelingDetail = () => {
         </div>
 
         {/* Dua Section */}
-        <div className="mt-6 space-y-8 w-9/12 lg:w-7/12 mx-auto">
+        <div className=" mt-6 space-y-8 w-9/12 lg:w-7/12 mx-auto">
           {feelingData.duaas.map((dua, index) => (
             <div
               key={index}
-              className="p-4 bg-blue-100 rounded shadow-lg text-center"
+              className="p-4 bg-white rounded shadow-lg text-center"
             >
               <p className="text-xl font-bold">{dua.arabic}</p>
               <p className="text-sm italic mt-2">{dua.transliteration}</p>
