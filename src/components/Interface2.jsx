@@ -65,7 +65,8 @@ const [counters, setCounters] = useState(
         <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => navigate(-1)} // Back button
-            className="bg-blue-100 text-black px-4 py-2 rounded hover:bg-blue-400 hover:text-white transition"
+            className="px-4 py-2 rounded transition bg-white text-black hover:bg-[rgb(203,213,222)] hover:text-white"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +104,8 @@ const [counters, setCounters] = useState(
                 {/* Counter Display and Buttons */}
                 <button
                     onClick={() => resetCounter(index)}
-                    className="px-4 py-2 bg-blue-100 text-black rounded-l-md hover:bg-blue-200 transition"
+                    className="px-4 py-2  text-black rounded-l-md hover:bg-blue-200 transition"
+                    style={{ backgroundColor: 'rgb(203,213,222)' }}
                 >
                     Set to 0
                 </button>

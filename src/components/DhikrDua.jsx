@@ -23,14 +23,14 @@ const Categories = () => {
             
             <div className="category-icon">
               <img
-                className="w-[60px] h-[70px] object-contain mr-2 mt-1"
+                className="w-[45px] h-[55px] md:w-[60px] md:h-[70px] object-contain ml-2 mr-2 mt-1"
                 src={category.icon}
                 
               />
             </div>
 
             
-            <div className="text-white text-[1.2rem] font-serif italic text-center">
+            <div className="text-white text-[1rem] lg:text-[1.1rem] font-serif italic text-center font-medium ">
               {category.name}
             </div>
           </div>

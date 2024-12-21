@@ -7,7 +7,7 @@ const Footer = () => {
         {/* About Section */}
         <div className="mb-4 md:mb-0 md:max-w-[800px]">
           <h3 className="text-xl font-bold mb-2">About us</h3>
-          <p className="text-md text-justify leading-relaxed">
+          <p className="text-sm lg:text-lg text-justify leading-relaxed">
             Our app serves as a bridge to deepen your connection with Allah through beautifully curated duas, tailored to every emotion and life moment. Explore the profound meaning of the 99 Names of Allah, inspiring mindfulness and reflection. Whether seeking comfort, guidance, or spiritual growth, our app makes faith accessible anytime, anywhere.
           </p>
         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Section */}
-      <div className="text-center text-md text-gray-600 mt-4">
+      <div className="text-center text-sm md:text-md text-gray-600 mt-4">
         Copyright © RAHMA
       </div>
     </footer>

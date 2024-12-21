@@ -28,7 +28,7 @@ const Categories = () => {
                 alt={category.name}
               />
             </div>
-            <div className="text-white text-[1.2rem] font-serif italic text-center">
+            <div className="text-white text-sm lg:text-[0.9rem] font-serif italic text-center ">
               {category.name}
             </div>
           </div>
