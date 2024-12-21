@@ -115,7 +115,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/dua-dhikr"
+            to="/category"
             className={`font-kotta hover:font-bold text-black ${
               location.pathname === "/dua-dhikr"
                 ? "text-[#142D4C] font-bold"
