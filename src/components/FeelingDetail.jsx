@@ -36,7 +36,7 @@ const FeelingDetail = () => {
           {/* Back Button */}
           <button
             onClick={() => navigate(-1)} // Navigates back to the previous page
-            className="px-4 py-2 rounded transition bg-white text-black hover:bg-[rgb(203,213,222)] hover:text-white"
+            className="fixed hidden md:block px-4 py-2 rounded transition bg-white text-black hover:bg-[rgb(203,213,222)] hover:text-white"
             >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const FeelingDetail = () => {
             </svg>
           </button>
           {/* Title */}
-          <h1 className=" text-2xl sm:text-3xl font-bold text-center capitalize flex-1">
+          <h1 className=" font-Crimson text-3xl md:text-4xl font-bold text-center capitalize flex-1">
             I am feeling {feeling}...
           </h1>
         </div>

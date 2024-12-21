@@ -33,7 +33,7 @@ const Asmaa = () => {
   return (
     <>
     <Navbar></Navbar>
-    <div className=" min-h-screen bg-beige">
+    <div className=" min-h-screen bg-[#F6F4ED]">
       {/* Barre de recherche */}
       <div className="pt-40 px-4 md:px-8 lg:px-12 flex flex-col justify-center items-center ">
         <input

@@ -68,7 +68,7 @@ const Home = () => {
         <h2
           id="second-div"
           className="text-3xl font-bold font-kotta mb-4 flex items-center justify-start text-[18px] sm:text-[30px] pt-20"
-          style={{ marginTop: 10 }}
+          
         >
           <span className="border-t border-gray-500 flex-grow-0 mr-4 w-1/6"></span>
           Dua & Dhikr

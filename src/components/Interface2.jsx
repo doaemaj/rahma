@@ -53,7 +53,7 @@ const [counters, setCounters] = useState(
     <>
       <Navbar />
       <div
-  className="min-h-screen p-6 bg-fixed bg-cover mt-[100px] lg:mt-32 "
+  className="min-h-screen p-6 bg-fixed bg-cover mt-24 md:mt-32 "
   style={{
     backgroundImage: "url('/assets/bg.jpg')",
   }}
@@ -65,7 +65,7 @@ const [counters, setCounters] = useState(
         <div className="flex items-center justify-between mb-8">
           <button
             onClick={() => navigate(-1)} // Back button
-            className="px-4 py-2 rounded transition bg-white text-black hover:bg-[rgb(203,213,222)] hover:text-white"
+            className="hidden sm:block fixed px-4 py-2 rounded transition bg-white text-black hover:bg-[rgb(203,213,222)] hover:text-white"
             
           >
             <svg
@@ -81,7 +81,7 @@ const [counters, setCounters] = useState(
               />
             </svg>
           </button>
-          <h1 className="text-2xl sm:text-3xl font-bold capitalize text-center flex-1">
+          <h1 className=" font-Crimson text-3xl md:text-4xl font-bold text-center capitalize flex-1">
             {dhikrData.dhikr}
           </h1>
         </div>

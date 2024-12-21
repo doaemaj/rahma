@@ -66,7 +66,7 @@ const Categories = () => {
   return (
     <div className="min-h-[70vh] flex flex-col items-center justify-center bg-[#f6f4ed] py-5 px-5 border-t border-b">
       {/* Header */}
-      <h2 className="text-[2rem] font-serif italic text-[#333] mb-[-20px]">Choose a category</h2>
+      <h2 className="text-[2rem] font-Crimson font-bold text-[#333] mb-[-40px]">Choose a category</h2>
 
       {/* Search Bar */}
       <SearchBar  onSearch={handleSearch} />

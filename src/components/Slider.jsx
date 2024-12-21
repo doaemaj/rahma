@@ -11,7 +11,7 @@ import slider5 from "./images/slider5.jpg";
 import slider6 from "./images/slider6.jpg";
 
 const Slider = () => {
-  const images = [slider1, slider2, slider3, slider4 ,slider5,slider6];
+  const images = [slider1, slider2, slider5, slider4 ,slider3,slider6];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {

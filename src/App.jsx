@@ -7,12 +7,13 @@ import Home from "./components/Home";
 import Interface1 from "./components/Interface1" 
 import CategoryDetail from "./components/Interface2"
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop"; // Import du composant
 
 const App = () => {
   return (
     <div>
-
     <Router>
+    <ScrollToTop /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/names-of-allah" element={<Asmaa />} />
