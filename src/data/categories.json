@@ -32,7 +32,7 @@
   },
   {
     "id": 7,
-    "name": "Travel",
+    "name": "Before Traveling",
     "icon": "/assets/travel.png"
   },
   {
@@ -68,7 +68,7 @@
   {
     "id": 14,
     "name": "This world and Aakhira",
-    "icon": "🙏"
+    "icon": "/assets/akhira.png"
   },
   {
     "id": 15,
@@ -83,22 +83,22 @@
   {
     "id": 17,
     "name": "Marriage and children",
-    "icon": "/assets/family.png"
+    "icon": "/assets/parents.png"
   },
   {
     "id": 18,
     "name": "After rainfall",
-    "icon": "/assets/8501973.jpg"
+    "icon": "/assets/rain.png"
   },
   {
     "id": 19,
     "name": "For parents",
-    "icon": "/assets/parents.png"
+    "icon": "/assets/family.png"
   },
   {
     "id": 20,
     "name": "The funeral prayer",
-    "icon": "/assets/grave.png"
+    "icon": "/assets/funeral.png"
   }
 ]
 
