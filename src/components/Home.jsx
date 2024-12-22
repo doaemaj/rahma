@@ -29,7 +29,8 @@ const Home = () => {
         <div
           className="text-center text-black p-6 max-w-4xl mx-auto"
           style={{ marginTop: '100px' }}
-        >
+        >          <AnimatedSection>
+
           <h1 className="text-4xl font-bold font-pacifico mb-4 text-[35px] md:text-[45px] lg:text-[50px]">
             Welcome to Rahma
           </h1>
@@ -43,6 +44,8 @@ const Home = () => {
           <p className="font-semibold font-kotta text-[15px] md:text-[22px] lg:text-[26px]">
             Start your journey towards inner peace today.
           </p>
+          </AnimatedSection>
+
         </div>
         
         {/* Scroll Button */}
