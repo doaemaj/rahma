@@ -50,7 +50,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div className="flex items-center justify-center w-full max-w-4xl mx-auto mt-10 mb-10 bg-customBlue bg-opacity-50 px-4">
+    <div className="flex items-center justify-center w-full max-w-4xl mx-auto mt-10 mb-4 bg-customBlue bg-opacity-50 px-4">
       <div className="flex items-center w-full max-w-lg">
         <input
           type="text"
