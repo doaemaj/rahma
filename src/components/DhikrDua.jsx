@@ -90,12 +90,12 @@ const Categories = () => {
             >
               <div className="category-icon">
                 <img
-                  className="w-[60px] h-[70px] object-contain mr-2 mt-1"
+                  className="w-[55px] h-[65px] md:w-[60px] md:h-[70px] object-contain mr-2 mt-1"
                   src={category.icon}
                   alt={category.name}
                 />
               </div>
-              <div className="text-white text-[1.2rem] font-serif italic text-center">
+              <div className="text-white text-[1rem] md:text-[1.2rem] font-serif italic text-center">
                 {category.name}
               </div>
             </div>
