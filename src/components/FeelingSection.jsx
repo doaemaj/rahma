@@ -72,7 +72,7 @@ const FeelingSection = () => {
           
           {/* Central Box */}
           <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg shadow-lg w-4/12 lg:w-custom">
-            <img src="src/assets/emotions2.jpg" alt="emotions" />
+            <img src="/emotions2.jpg" alt="emotions" />
           </div>
 
           {filteredFeelings.map((feeling, index) => (
@@ -123,7 +123,7 @@ const FeelingSection = () => {
             {filteredFeelings.map((feeling, index) => (
               <button
                 key={index}
-                className={`bg-[#c7d4dc] text-${feeling.color}-600 hover:bg-blue-50 p-4 rounded shadow-lg text-xl`}
+                className={`bg-[#c7d4dc] text-${feeling.color}-600 hover:bg-blue-0 p-4 rounded shadow-lg text-xl`}
                 onClick={() =>
                   (window.location.href = `/feeling/${feeling.text.toLowerCase()}`)
                 }
