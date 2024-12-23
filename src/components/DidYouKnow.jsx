@@ -58,6 +58,7 @@ import React, { useState } from "react";
 import data from "../data/DidYouKnow.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotateRight } from "@fortawesome/free-solid-svg-icons";
+import AnimatedSection from "./AnimatedSection";
 
 const DidYouKnow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -74,18 +75,22 @@ const DidYouKnow = () => {
           
           <div className="flex-1">
             <h2 className="text-[1.3rem] font-bold mb-4">Did you know?</h2>
+            <AnimatedSection>
             <p className="text-gray-700 text-[0.9rem] leading-relaxed lg:text-[1.1rem]">
               {data[currentIndex].text}
             </p>
+            </AnimatedSection>
           </div>
 
           
           <div className="flex ml-6 md:gap-10 md:mr-10">
+            <AnimatedSection>
             <img
               src={data[currentIndex].image}
               alt="Did you know"
               className="w-[170px] h-[170px]"
             />
+            </AnimatedSection>
           </div>
         </div>
 
