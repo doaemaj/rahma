@@ -130,7 +130,7 @@ const Home = () => {
 
             <img
               src={('/home3.png')}
-              alt="Dua & Dhikr Illustration"
+              alt="I am feeling Illustration"
               className="rounded-md shadow-lg max-w-s md:max-w-sm"
             />
                     </AnimatedSection>
@@ -189,10 +189,10 @@ const Home = () => {
           <AnimatedSection>
             <img
               src={('/home2.png')}
-              alt="Dua & Dhikr Illustration"
+              alt="Names of Allah Illustration"
               className="rounded-md shadow-lg max-w-s md:max-w-sm"
             />
-                    </AnimatedSection>
+            </AnimatedSection>
 
           </div>
         </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FeelingSection.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const FeelingSection = () => {
   const feelings = [
@@ -98,7 +99,7 @@ const FeelingSection = () => {
         </div>
 
         {/* Tablet and Mobile Layout */}
-        <div className="block md:hidden flex-grow overflow-scroll bg-beige"
+        <div className="block md:hidden flex-grow min-h-screen overflow-scroll bg-beige"
         style={{
           backgroundImage: "url('/bg3.png')",
           backgroundSize: "cover", // Ensures the image covers the entire background proportionally
@@ -122,7 +123,7 @@ const FeelingSection = () => {
             {filteredFeelings.map((feeling, index) => (
               <button
                 key={index}
-                className={`bg-blue-100 text-${feeling.color}-600 hover:bg-blue-200 p-4 rounded shadow-lg text-xl`}
+                className={`bg-[#c7d4dc] text-${feeling.color}-600 hover:bg-blue-50 p-4 rounded shadow-lg text-xl`}
                 onClick={() =>
                   (window.location.href = `/feeling/${feeling.text.toLowerCase()}`)
                 }

@@ -11,7 +11,7 @@ import ScrollToTop from "./components/ScrollToTop"; // Import du composant
 
 const App = () => {
   return (
-    <div>
+    <div >
     <Router>
     <ScrollToTop /> 
       <Routes>

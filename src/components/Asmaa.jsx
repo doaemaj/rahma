@@ -73,7 +73,7 @@ const Asmaa = () => {
                     />
                   </div>
                   {/* Contenu 2/3 */}
-                  <div className="w-2/3 p-4 flex flex-col justify-center bg-[#BDD7F2]">
+                  <div className="w-2/3 p-4 flex flex-col justify-center bg-[#c7d4dc]">
                     <h3 className="text-lg font-bold text-gray-800 mb-2">{name.transliteration}</h3>
                     <p className="text-sm text-gray-600">{name.en.desc}</p>
                   </div>
