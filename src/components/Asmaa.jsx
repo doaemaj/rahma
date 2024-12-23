@@ -37,7 +37,11 @@ const Asmaa = () => {
   const currentItems = filteredNames.slice(indexOfFirstItem, indexOfLastItem);
 
   // Changer de page
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    // Faire défiler la page vers le haut
+    window.scrollTo(0, 0); // Cela scroll automatiquement tout en haut
+  };
 
   // Calcul du nombre total de pages
   const totalPages = Math.ceil(filteredNames.length / itemsPerPage);
